@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>四〇一学校 | 教人学真 学做真人</title>
+
+<!--    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">-->
+	
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        
+    <a class="navbar-brand" href="#">
+      <img img src="../img/logo.png" data-src="../img/logo.png" alt="" style="float: left;width:40px;height: auto;filter: contrast(1%) brightness(175%)" class="d-inline-block align-text-top">
+      <span style="font-size: 24px">&nbsp;四〇一学校</span>
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="aid" onClick="toAid()">主页</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#team" id="bid" onClick="toBid()">群体</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#activity" id="cid" onClick="toCid()">活动</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" id="did" onClick="toDid()">联系我们</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+		
+      <div class="carousel-item active" id="pic1">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>基本理念</h1>
+            <p>遵守学生守则，做到热爱学习、注重礼仪、遵守法纪、严守公德，争做新时代好少年养成文明健康生活习惯，节约用水用电、使用公筷公勺，做到文明礼让、文明养犬、文明祭扫、文明旅游、文明上网，争当文明小市民；</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" id="pic2">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>培养情操</h1>
+            <p>积极参加学雷锋志愿服务活动，主动投身到敬老爱老、垃圾分类、光盘行动、生态保护志愿者行列中，当好文明小使者；积极参加各类体育锻炼和劳动实践活动，努力培养审美情趣，争做德智体美劳全面发展的青少年；</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" id="pic3">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>社会活动</h1>
+            <p>我校师生积极参加诵读、戏曲、书法、传统体育、非遗文化等中华优秀传统文化活动，增强文化自觉、坚定文化自信；积极参加应急救护和防灾避险等相关学习实践活动，注意交通安全、注重防火防电，牢固树立安全意识。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">上一个</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">下一个</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+    <h1 id="team">我们的群体</h1>
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4 showed">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" data-src="../img/head1.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <h2>领导群体</h2>
+        <p>搞好决策部署<br>严格落实指示</p>
+</div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 showed">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" data-src="../img/head2.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <h2>学生群体</h2>
+        <p>诚实踏实求实务实<br>创新向上全面发展</p>
+</div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 showed">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" data-src="../img/head3.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <h2>教师群体</h2>
+        <p>知识渊博诲人不倦<br>担当能干育人育才</p>
+</div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+    
+    <hr class="featurette-divider">
+    <h1 class="featurette-heading" id="activity">我们的活动</h1>
+    <br>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">尚真·课程</h2>
+        <p class="lead">“核科技场馆课程”是我校“尚真”课程体系的重要内容，也是我校特色课程之一。四〇一学校发挥毗邻中国原子能科学研究院的地域优势，根据学校自身的性质、特点和条件，开发具有四〇一学校 “尚真”文化特色的“核科技场馆课程”，培养具有科学探索精神的“四〇一学子”。</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" data-src="../img/intro1.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">尚真·党建</h2>
+        <p class="lead">四〇一学校将一直跟党走，继续认真落实上级文件要求，有条不紊的开展各项工作，不断创新，推进支部党建工作，在规范党支部建设基础上做好党建品牌建设规划与实施。</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" data-src="../img/intro2.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">尚真·国际</h2>
+        <p class="lead">在中国核工业科技馆，开展了“大使带你一起看世界”活动。原驻纽约总领事馆大使衔总领事、驻爱尔兰特命全权大使、驻丹麦王国特命全权大使刘碧伟大使，给房山区四〇一学校的同学们带来了一场精彩绝伦的专题讲座，为同学们打开了看世界的新视野。活动最后，刘碧伟大使引用了毛主席的话勉励大家：“世界是你们的，也是我们的，但是归根结底是你们的。你们青年人朝气蓬勃，正在兴旺时期，好像早晨八九点钟的太阳。希望寄托在你们身上。”在场同学们的掌声经久不息，表达着自己内心的激动。</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" data-src="../img/intro3.png" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+      </div>
+    </div>
+    <div id="contact">
+      <br>
+      <br>
+    </div>
+    <div class="row">
+    <div class="card col-md-4">
+  <div class="card-body">
+    <h5 telephone="6935-8428">联系我们</h5>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg> 电话：13xxxxxxx01
+  </div>
+  
+</div>
+      <div class="card" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img data-src="../img/qrcode.jpg" class="img-fluid rounded-start" alt="">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">我们的公众号 </h5>
+        <p class="card-text">关注我们的公众号，以便获得最新资讯</p>
+        <p class="card-text"><div class="alert alert-success" role="alert">欢迎您的关注</div></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+      
+<hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+  
+  </div>
+<!-- /.container -->
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">回到顶端</a></p>
+    <p>&copy; 2017–2021 &nbsp;&middot; <a href="">隐私</a> &middot; <a href="">条款</a></p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var imgs = document.querySelectorAll('img');
+
+        //offsetTop是元素与offsetParent的距离，循环获取直到页面顶部
+        function getTop(e) {
+            var T = e.offsetTop;
+            while(e = e.offsetParent) {
+                T += e.offsetTop;
+            }
+            return T;
+        }
+
+        function lazyLoad(imgs) {
+            var H = document.documentElement.clientHeight;//获取可视区域高度
+            var S = document.documentElement.scrollTop || document.body.scrollTop;
+            for (var i = 0; i < imgs.length; i++) {
+                if (H + S > getTop(imgs[i])) {
+                    imgs[i].src = imgs[i].getAttribute('data-src');
+                }
+            }
+        }
+
+        window.onload = window.onscroll = function () { //onscroll()在滚动条滚动的时候触发
+            lazyLoad(imgs);
+        }
+        var a=document.getElementById("aid");
+        var b=document.getElementById("bid");
+        var c=document.getElementById("cid");
+        var d=document.getElementById("did");
+        function toAid(){
+          a.classList.add("active");
+          b.classList.remove("active");
+          c.classList.remove("active");
+          d.classList.remove("active");
+        }
+      function toBid(){
+          a.classList.remove("active");
+          b.classList.add("active");
+          c.classList.remove("active");
+          d.classList.remove("active");
+        }
+      function toCid(){
+          a.classList.remove("active");
+          b.classList.remove("active");
+          c.classList.add("active");
+          d.classList.remove("active");
+        }
+      function toDid(){
+          a.classList.remove("active");
+          b.classList.remove("active");
+          c.classList.remove("active");
+          d.classList.add("active");
+        }
+</script>
+      
+  </body>
+</html>
